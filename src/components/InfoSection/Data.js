@@ -3,13 +3,14 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transction with zero fees",
+  topLine: "About me",
+  headline:
+    "I'm looking for my first position as a Front End / Full Stack Web Developer.",
   description:
-    " Get access to our exlusive app that allows you to send unlimited transactions without getting charged any fees.",
+    "Highly motivated to succeed and wishing to enter the Hi-Tech industry.",
   buttonLabel: "Get started",
   imgStart: false,
-  img: require("../../images/svg-1.svg").default,
+  //img: require("../../images/svg-1.svg").default,
   alt: "Car",
   dark: true,
   primary: true,
@@ -17,17 +18,16 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: " discover",
+  id: " education",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transction with zero fees",
-  description:
-    " Get access to our exlusive app that allows you to send unlimited transactions without getting charged any fees.",
+  topLine: "Education",
+  headline: "B.sc Software Engineer at SCE",
+  description: " React & Redux Course (40 hours)",
   buttonLabel: "Learn more",
-  imgStart: true,
-  img: require("../../images/svg-2.svg").default,
+  imgStart: false,
+  //img: require("../../images/svg-2.svg").default,
   alt: "Piggybank",
   dark: false,
   primary: false,
@@ -35,17 +35,17 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: " signup",
+  id: " contact",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transction with zero fees",
+  topLine: "Contact",
+  headline: "Check out:",
   description:
     " Get access to our exlusive app that allows you to send unlimited transactions without getting charged any fees.",
   buttonLabel: "Start now",
   imgStart: false,
-  img: require("../../images/svg-3.svg").default,
+  //img: require("../../images/svg-3.svg").default,
   alt: "Paper",
   dark: false,
   primary: false,

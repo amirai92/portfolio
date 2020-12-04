@@ -16,28 +16,25 @@ function Services() {
   return (
     <>
       <ServicesContainer id="services">
-        <ServicesH1>Our Services</ServicesH1>
+        <ServicesH1>My Projects</ServicesH1>
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon scr={Icon1} />
-            <ServicesH2>Reduce expenses</ServicesH2>
+            <ServicesH2>Bot Browse</ServicesH2>
             <ServicesP>
-              We help reduce your fees and increase your overall revenue
+              In this project I built a Single web page application using React
+              Redux and React Form for adding another bot to the list
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon scr={Icon2} />
-            <ServicesH2>Virtual Offices</ServicesH2>
-            <ServicesP>
-              You can access our platform onine anywhere in the world
-            </ServicesP>
+            <ServicesH2>Bot Browse</ServicesH2>
+            <ServicesP>Using Context API as Global state management.</ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon scr={Icon3} />
-            <ServicesH2>Premium Benefits</ServicesH2>
-            <ServicesP>
-              Unlock our special memebership card that returns 5% cash back.{" "}
-            </ServicesP>
+            <ServicesH2>Online Store</ServicesH2>
+            <ServicesP>Will upload soon</ServicesP>
           </ServicesCard>
         </ServicesWrapper>
       </ServicesContainer>

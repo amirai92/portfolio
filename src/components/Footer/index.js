@@ -24,7 +24,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle> About us</FooterLinkTitle>
@@ -59,7 +59,31 @@ function Footer() {
               <FooterLink to="/">Twittter</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
+
+        <SocialIcons>
+          <SocialIconLink
+            href="//www.facebook.com/amir.aizin/"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <FaFacebook />
+          </SocialIconLink>
+          <SocialIconLink
+            href="//github.com/amirai92"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </SocialIconLink>
+          <SocialIconLink
+            href="//www.linkedin.com/in/amir-aizin/"
+            target="_blank"
+            aria-label="Linkedin"
+          >
+            <FaLinkedin />
+          </SocialIconLink>
+        </SocialIcons>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
@@ -69,29 +93,6 @@ function Footer() {
             <WebsiteRights>
               Amir Aizin © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
-            <SocialIcons>
-              <SocialIconLink
-                href="//www.facebook.com/amir.aizin/"
-                target="_blank"
-                aria-label="Facebook"
-              >
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink
-                href="//github.com/amirai92"
-                target="_blank"
-                aria-label="GitHub"
-              >
-                <FaGithub />
-              </SocialIconLink>
-              <SocialIconLink
-                href="//www.linkedin.com/in/amir-aizin/"
-                target="_blank"
-                aria-label="Linkedin"
-              >
-                <FaLinkedin />
-              </SocialIconLink>
-            </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

@@ -37,7 +37,7 @@ const NavBar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavBarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Amir
+              Amir Aizin Portfolio
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -82,14 +82,14 @@ const NavBar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="signup"
+                  to="contact"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Sign Up
+                  Contact
                 </NavLinks>
               </NavItem>
             </NavMenu>
