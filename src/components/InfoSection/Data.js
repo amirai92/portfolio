@@ -1,5 +1,5 @@
 export const homeObjOne = {
-  id: " about",
+  id: " education",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -14,6 +14,15 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
+  buttonLabelOne: "React-JS",
+  buttonLabelTwo: "Redux",
+  buttonLabelThree: "Node-JS",
+  buttonLabelFour: "MONGO-DB",
+  buttonLabelFive: "JavaScript",
+  buttonLabelSix: "HTML",
+  buttonLabelSeven: "CSS",
+  buttonLabelEight: "Python",
+  buttonLabelNine: "Java",
 };
 
 export const homeObjTwo = {
@@ -21,10 +30,10 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Skills",
-  headline: "B.sc Software Engineer at SCE",
-  description: " React & Redux Course (40 hours)",
-  buttonLabel: "Learn more",
+  topLine: "CONSTRUCT",
+  //  headline: "B.sc Software Engineer at SCE",
+  // description: " React & Redux Course (40 hours)",
+  // buttonLabel: "Learn more",
   imgStart: false,
   //img: require("../../images/svg-2.svg").default,
   alt: "Piggybank",

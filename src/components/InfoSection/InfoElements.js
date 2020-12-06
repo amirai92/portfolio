@@ -60,7 +60,7 @@ export const TopLine = styled.p`
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 `;
 
 export const Heading = styled.h1`
@@ -86,6 +86,15 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+  padding-bottom: -1rem;
+  margin-bottom: -1rem;
+`;
+
+export const SkillsWrap = styled.p`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vh;
 `;
 
 export const ImgWrap = styled.div`

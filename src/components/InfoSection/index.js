@@ -13,6 +13,7 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
+  SkillsWrap,
 } from "./InfoElements";
 
 function InfoSection({
@@ -25,7 +26,15 @@ function InfoSection({
   headlineTwo,
   darkText,
   description,
-  buttonLabel,
+  buttonLabelOne,
+  buttonLabelTwo,
+  buttonLabelThree,
+  buttonLabelFour,
+  buttonLabelFive,
+  buttonLabelSix,
+  buttonLabelSeven,
+  buttonLabelEight,
+  buttonLabelNine,
   imgOne,
   imgTwo,
   altOne,
@@ -33,10 +42,11 @@ function InfoSection({
   primary,
   dark,
   dark2,
+  Btn,
 }) {
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <InfoContainer lightBg={lightBg} id="education">
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
@@ -65,6 +75,19 @@ function InfoSection({
               </ImgWrap>
             </Column2>
           </InfoRow>
+          <SkillsWrap>
+            <BtnWrap>
+              <Button>{buttonLabelOne}</Button>
+              <Button>{buttonLabelTwo}</Button>
+              <Button>{buttonLabelThree}</Button>
+              <Button>{buttonLabelFour}</Button>
+              <Button>{buttonLabelFive}</Button>
+              <Button>{buttonLabelSix}</Button>
+              <Button>{buttonLabelSeven}</Button>
+              <Button>{buttonLabelEight}</Button>
+              <Button>{buttonLabelNine}</Button>
+            </BtnWrap>
+          </SkillsWrap>
         </InfoWrapper>
       </InfoContainer>
     </>

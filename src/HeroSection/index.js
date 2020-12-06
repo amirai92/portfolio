@@ -32,22 +32,20 @@ const HeroSection = () => {
           Developer.
         </HeroP>
         <HeroBtnWrapper>
-          <a href="https://docdro.id/8y1pDUA">
-            <Button
-              onMouseEnter={onHover}
-              onMouseLeave={onHover}
-              primary="true"
-              dark="true"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              offset={-80}
-              onClick={() => window.open("https://docdro.id/8y1pDUA")}
-            >
-              Download resume{hover ? <ArrowForward /> : <ArrowRight />}
-            </Button>
-          </a>
+          <Button
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={() => window.open("https://docdro.id/8y1pDUA")}
+          >
+            Download resume{hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
@@ -56,6 +54,8 @@ const HeroSection = () => {
 
 export default HeroSection;
 //     to = "signup";
-<a download="resume.pdf" target="_blank" href="https://docdro.id/8y1pDUA">
+{
+  /* <a download="resume.pdf" target="_blank" href="https://docdro.id/8y1pDUA">
   click here to download
-</a>;
+</a>; */
+}

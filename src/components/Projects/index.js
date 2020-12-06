@@ -1,50 +1,54 @@
 import React from "react";
-import Icon1 from "../../images/svg-1.svg";
-import Icon2 from "../../images/svg-5.svg";
-import Icon3 from "../../images/svg-6.svg";
-import {
-  ServicesContainer,
-  ServicesH1,
-  ServicesWrapper,
-  ServicesCard,
-  ServicesIcon,
-  ServicesH2,
-  ServicesP,
-} from "./ServicesElements";
+//import Icon1 from "../../images/bot_browse_project.png";
+//import Icon2 from "../../images/svg-1.svg";
+//import Icon3 from "../../images/online_store.svg";
 
-function Services() {
+import {
+  ProjectsContainer,
+  ProjectsH1,
+  ProjectsWrapper,
+  ProjectsCard,
+  ProjectsIcon,
+  ProjectsH2,
+  ProjectsP,
+  ProjectsH2Desc,
+} from "./ProjectsElements";
+
+function Projects() {
   return (
     <>
-      <ServicesContainer id="services">
-        <ServicesH1>My Projects</ServicesH1>
-        <ServicesH2>
-          All these projects achieved in my free time. You can click on any
-          project and read a brief description, check my code in github and in
-          several projects watch online demos. thank you for your support!
-        </ServicesH2>
-        <ServicesWrapper>
-          <ServicesCard>
-            <ServicesIcon scr={Icon1} />
-            <ServicesH2>Bot Browse</ServicesH2>
-            <ServicesP>
-              In this project I built a Single web page application using React
-              Redux and React Form for adding another bot to the list
-            </ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <ServicesIcon scr={Icon2} />
-            <ServicesH2>Bot Browse</ServicesH2>
-            <ServicesP>Using Context API as Global state management.</ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <ServicesIcon scr={Icon3} />
-            <ServicesH2>Online Store</ServicesH2>
-            <ServicesP>Will upload soon</ServicesP>
-          </ServicesCard>
-        </ServicesWrapper>
-      </ServicesContainer>
+      <ProjectsContainer id="projects">
+        <ProjectsH1>My Projects</ProjectsH1>
+        <ProjectsH2Desc>
+          All these projects achieved in my free time.Check my code in github
+          and in several projects watch online demos. thank you for your
+          support!
+        </ProjectsH2Desc>
+        <ProjectsWrapper>
+          <ProjectsCard>
+            {/* <ServicesIcon scr={Icon6} alt={"Bot Browse-Redux"} /> */}
+            <ProjectsH2>Bot Browse</ProjectsH2>
+            <ProjectsP>
+              In this project I have built a Single web page application using
+              React Redux and React Form for adding another bot to the list
+            </ProjectsP>
+          </ProjectsCard>
+
+          <ProjectsCard>
+            {/* <ProjectsIcon scr={Icon2} alt={"Bot Browse-Context API"} /> */}
+            <ProjectsH2>Bot Browse</ProjectsH2>
+            <ProjectsP>Using Context API as Global state management.</ProjectsP>
+          </ProjectsCard>
+
+          <ProjectsCard>
+            {/* <ProjectsIcon scr={Icon3} alt={"online_store"} /> */}
+            <ProjectsH2>Online Store</ProjectsH2>
+            <ProjectsP>Will upload soon</ProjectsP>
+          </ProjectsCard>
+        </ProjectsWrapper>
+      </ProjectsContainer>
     </>
   );
 }
 
-export default Services;
+export default Projects;

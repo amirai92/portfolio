@@ -23,7 +23,7 @@ function Footer() {
     scroll.scrollToTop();
   };
   return (
-    <FooterContainer>
+    <FooterContainer id="contact">
       <FooterWrap>
         <ContactHeader>Contact Me</ContactHeader>
         <SocialIcons>
