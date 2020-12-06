@@ -37,12 +37,14 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+  background-size: cover;
 `;
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
-  grid-area: col1;
+  grid-area: col2;
+  background-size: cover;
 `;
 
 export const TextWrapper = styled.div`
@@ -53,12 +55,12 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #01bf71;
-  font-size: 16px;
+  font-size: 54px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 64px;
 `;
 
 export const Heading = styled.h1`

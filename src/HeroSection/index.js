@@ -27,22 +27,27 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Amir Aizin</HeroH1>
-        <HeroP>Full-stack Developer</HeroP>
+        <HeroP>
+          I'm looking for my first position as a Front End / Full Stack Web
+          Developer.
+        </HeroP>
         <HeroBtnWrapper>
-          <Button
-            to="signup"
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-            primary="true"
-            dark="true"
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-          >
-            Download resume{hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          <a href="https://docdro.id/8y1pDUA">
+            <Button
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary="true"
+              dark="true"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+              onClick={() => window.open("https://docdro.id/8y1pDUA")}
+            >
+              Download resume{hover ? <ArrowForward /> : <ArrowRight />}
+            </Button>
+          </a>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
@@ -50,3 +55,7 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+//     to = "signup";
+<a download="resume.pdf" target="_blank" href="https://docdro.id/8y1pDUA">
+  click here to download
+</a>;

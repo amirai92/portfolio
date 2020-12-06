@@ -104,5 +104,10 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled.a`
   color: #fff;
+  font-size: 44px;
+`;
+
+export const ContactHeader = styled.h1`
+  color: #01bf71;
   font-size: 24px;
 `;

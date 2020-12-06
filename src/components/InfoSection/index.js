@@ -21,12 +21,15 @@ function InfoSection({
   imgStart,
   topLine,
   lightText,
-  headline,
+  headlineOne,
+  headlineTwo,
   darkText,
   description,
   buttonLabel,
-  img,
-  alt,
+  imgOne,
+  imgTwo,
+  altOne,
+  altTwo,
   primary,
   dark,
   dark2,
@@ -39,27 +42,27 @@ function InfoSection({
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
+                <Heading lightText={lightText}>{headlineOne}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
-                  <Button
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </Button>
-                </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>{/* <Img src={img} alt={alt} /> */}</ImgWrap>
+              <ImgWrap>
+                <Img src={imgOne} alt={altOne} />
+              </ImgWrap>
+            </Column2>
+          </InfoRow>
+          <InfoRow>
+            <Column1>
+              <TextWrapper>
+                <Heading lightText={lightText}>{headlineTwo}</Heading>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
+              </TextWrapper>
+            </Column1>
+            <Column2>
+              <ImgWrap>
+                <Img src={imgTwo} alt={altTwo} />
+              </ImgWrap>
             </Column2>
           </InfoRow>
         </InfoWrapper>

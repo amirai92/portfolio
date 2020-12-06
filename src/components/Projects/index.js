@@ -17,6 +17,11 @@ function Services() {
     <>
       <ServicesContainer id="services">
         <ServicesH1>My Projects</ServicesH1>
+        <ServicesH2>
+          All these projects achieved in my free time. You can click on any
+          project and read a brief description, check my code in github and in
+          several projects watch online demos. thank you for your support!
+        </ServicesH2>
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon scr={Icon1} />
