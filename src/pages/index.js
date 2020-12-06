@@ -5,11 +5,7 @@ import HeroSection from "../HeroSection";
 import InfoSection from "../components/InfoSection";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
-import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjThree,
-} from "../components/InfoSection/Data";
+import { homeObjOne } from "../components/InfoSection/Data";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
