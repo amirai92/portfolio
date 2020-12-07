@@ -60,9 +60,9 @@ export const ProjectsIcon = styled.img`
 export const ProjectsH1 = styled.h1`
   font-size: 3.5rem;
   font-weight: bold;
-  color: #fff;
-  margin-bottom: 64px;
-  padding-top: 2vw;
+  color: #01bf71;
+  margin-bottom: 104px;
+  padding-top: 0;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
@@ -79,10 +79,11 @@ export const ProjectsH2 = styled.h2`
 
 export const ProjectsH2Desc = styled.h2`
   font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #fff;
+  margin-bottom: 64px;
+  color: #01bf71;
 `;
 export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
+  color: #01bf71;
 `;

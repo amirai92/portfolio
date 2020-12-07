@@ -39,10 +39,6 @@ function InfoSection({
   imgTwo,
   altOne,
   altTwo,
-  primary,
-  dark,
-  dark2,
-  Btn,
 }) {
   return (
     <>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
-
+import { FaArrowUp } from "react-icons/fa";
 import {
   Nav,
   NavBarContainer,
@@ -37,9 +37,11 @@ const NavBar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavBarContainer>
-            <NavLogo to="/" onClick={toggleHome}>
-              Amir Aizin
-            </NavLogo>
+            <FaArrowUp
+              font-size={"34px"}
+              to="/"
+              onClick={toggleHome}
+            ></FaArrowUp>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>

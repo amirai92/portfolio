@@ -70,10 +70,11 @@ export const SocialMedia = styled.section`
 
 export const SocialMediaWrap = styled.div`
   display: flex;
+  font-size: 24px;
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  margin: 40px auto 0 auto;
+  margin: 40px 50px 0 380px;
   @media screen and(max-width:820px) {
     flex-direction: column;
   }
@@ -92,7 +93,9 @@ export const SocialLogo = styled(Link)`
 `;
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: -64px;
+  margin-right: 24px;
+  margin-left: -24px;
 `;
 
 export const SocialIcons = styled.div`
@@ -100,11 +103,14 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  margin: 4px 116px 4px 4px;
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  font-size: 44px;
+  font-size: 64px;
+  padding: 44px 44px 0 0;
+  justify-content: center;
 `;
 
 export const ContactHeader = styled.h1`

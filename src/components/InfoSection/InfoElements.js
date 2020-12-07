@@ -58,9 +58,14 @@ export const TopLine = styled.p`
   font-size: 54px;
   line-height: 16px;
   font-weight: 700;
+  text-align: center;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 44px;
+  margin-right: -524px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 `;
 
 export const Heading = styled.h1`
@@ -94,7 +99,6 @@ export const SkillsWrap = styled.p`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 30vh;
 `;
 
 export const ImgWrap = styled.div`

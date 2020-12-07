@@ -24,20 +24,3 @@ export const homeObjOne = {
   buttonLabelEight: "Python",
   buttonLabelNine: "Java",
 };
-
-export const homeObjTwo = {
-  id: " education",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "CONSTRUCT",
-  //  headline: "B.sc Software Engineer at SCE",
-  // description: " React & Redux Course (40 hours)",
-  // buttonLabel: "Learn more",
-  imgStart: false,
-  //img: require("../../images/svg-2.svg").default,
-  alt: "Piggybank",
-  dark: false,
-  primary: false,
-  darkText: true,
-};

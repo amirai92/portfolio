@@ -6,6 +6,8 @@ import InfoSection from "../components/InfoSection";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import { homeObjOne } from "../components/InfoSection/Data";
+import { ProjectObjOne } from "../components/Projects/Data";
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -18,8 +20,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      {/* <InfoSection {...homeObjTwo} /> */}
-      <Projects />
+      <Projects {...ProjectObjOne} />
       <Footer />
     </>
   );

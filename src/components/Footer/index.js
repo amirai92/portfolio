@@ -1,17 +1,11 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import { FaFacebook, FaLinkedin, FaGithub, FaWindows } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinkWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  SocialLogo,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
@@ -21,9 +15,6 @@ import {
 import { MdEmail } from "react-icons/md";
 
 function Footer() {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
   return (
     <FooterContainer id="contact">
       <FooterWrap>
@@ -60,9 +51,6 @@ function Footer() {
         </SocialIcons>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/" onClick={toggleHome}>
-              Go Up
-            </SocialLogo>
             <WebsiteRights>
               Amir Aizin © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>

@@ -1,8 +1,4 @@
 import React from "react";
-//import Icon1 from "../../images/bot_browse_project.png";
-//import Icon2 from "../../images/svg-1.svg";
-//import Icon3 from "../../images/online_store.svg";
-
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -13,35 +9,36 @@ import {
   ProjectsP,
   ProjectsH2Desc,
 } from "./ProjectsElements";
-
-function Projects() {
+function Projects({ imgOne, altOne, imgTwo, altTwo, imgThree, altThree }) {
   return (
     <>
       <ProjectsContainer id="projects">
         <ProjectsH1>My Projects</ProjectsH1>
         <ProjectsH2Desc>
           All these projects achieved in my free time.Check my code in github
-          and in several projects watch online demos. thank you for your
-          support!
+          refer in the Contact section.Thank you for your support!
         </ProjectsH2Desc>
         <ProjectsWrapper>
           <ProjectsCard>
-            {/* <ServicesIcon scr={Icon6} alt={"Bot Browse-Redux"} /> */}
-            <ProjectsH2>Bot Browse</ProjectsH2>
+            <ProjectsIcon src={imgOne} alt={altOne} />
+            <ProjectsH2>Filter Bot List</ProjectsH2>
             <ProjectsP>
-              In this project I have built a Single web page application using
-              React Redux and React Form for adding another bot to the list
+              In this project I have built application using React Redux and
+              React Form for adding another bot to the list of bots.
             </ProjectsP>
           </ProjectsCard>
 
           <ProjectsCard>
-            {/* <ProjectsIcon scr={Icon2} alt={"Bot Browse-Context API"} /> */}
-            <ProjectsH2>Bot Browse</ProjectsH2>
-            <ProjectsP>Using Context API as Global state management.</ProjectsP>
+            <ProjectsIcon src={imgTwo} alt={altTwo} />
+            <ProjectsH2>Create Bot And Filter</ProjectsH2>
+            <ProjectsP>
+              In this project I have built application Using Context API as
+              Global state management.
+            </ProjectsP>
           </ProjectsCard>
 
           <ProjectsCard>
-            {/* <ProjectsIcon scr={Icon3} alt={"online_store"} /> */}
+            <ProjectsIcon src={imgThree} alt={altThree} />
             <ProjectsH2>Online Store</ProjectsH2>
             <ProjectsP>Will upload soon</ProjectsP>
           </ProjectsCard>
