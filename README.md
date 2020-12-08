@@ -1,3 +1,7 @@
+Welcome to my portfolio project!
+Link to the portfolio: https://amiraizinportfolio.netlify.app/
+If you have any notes and want to contact me im available on the email: amiraizin20@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
