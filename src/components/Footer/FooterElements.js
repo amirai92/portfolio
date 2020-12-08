@@ -96,6 +96,9 @@ export const WebsiteRights = styled.small`
   margin-bottom: -64px;
   margin-right: 24px;
   margin-left: -64px;
+  @media screen and (max-width: 420px) {
+    margin-left: -24px;
+  }
 `;
 
 export const SocialIcons = styled.div`

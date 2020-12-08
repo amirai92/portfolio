@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const InfoSectionContainer = styled.div`
+export const EducationContainer = styled.div`
   height: 860px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ export const InfoSectionContainer = styled.div`
   }
 `;
 
-export const InfoSectionWrapper = styled.div`
+export const EducationWrapper = styled.div`
     max-width:1000px;
     margin:0 auto;
     display:grid;
@@ -34,7 +34,7 @@ export const InfoSectionWrapper = styled.div`
     }
 `;
 
-export const InfoSectionCard = styled.div`
+export const EducationCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ export const InfoSectionCard = styled.div`
   }
 `;
 
-export const InfoSectionIcon = styled.img`
+export const EducationIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
@@ -59,7 +59,7 @@ export const InfoSectionIcon = styled.img`
   margin-top: 10px;
 `;
 
-export const InfoSectionH1 = styled.h1`
+export const EducationH1 = styled.h1`
   font-size: 3.5rem;
   font-weight: bold;
   color: #01bf71;
@@ -73,7 +73,7 @@ export const InfoSectionH1 = styled.h1`
   }
 `;
 
-export const InfoSectionH2 = styled.h2`
+export const EducationH2 = styled.h2`
   font-size: 2.5rem;
   display: flex;
   margin-bottom: 64px;
@@ -82,13 +82,13 @@ export const InfoSectionH2 = styled.h2`
   }
 `;
 
-export const InfoSectionH2Desc = styled.h2`
+export const EducationH2Desc = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 64px;
   color: #fff;
 `;
-export const InfoSectionP = styled.p`
+export const EducationP = styled.p`
   font-size: 1rem;
   text-align: center;
-  color: #01bf71;
+  color: #000;
 `;
