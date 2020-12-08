@@ -42,7 +42,7 @@ const HeroSection = () => {
             spy={true}
             exact="true"
             offset={-80}
-            onClick={() => window.open("https://docdro.id/8y1pDUA")}
+            onClick={() => window.open("https://docdro.id/EaJLtyX")}
           >
             Download resume{hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
