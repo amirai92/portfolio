@@ -53,9 +53,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-//     to = "signup";
-{
-  /* <a download="resume.pdf" target="_blank" href="https://docdro.id/8y1pDUA">
-  click here to download
-</a>; */
-}
