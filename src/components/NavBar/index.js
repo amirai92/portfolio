@@ -38,7 +38,7 @@ const NavBar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavBarContainer>
             <FaArrowUp
-              font-size={"34px"}
+              fontSize={"34px"}
               to="/"
               onClick={toggleHome}
             ></FaArrowUp>

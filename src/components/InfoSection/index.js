@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { Button } from "../ButtonElements";
 import {
   InfoContainer,
@@ -90,4 +90,39 @@ function InfoSection({
   );
 }
 
+export default InfoSection;
+
+*/
+
+import {
+  ProjectsH1,
+  ProjectsWrapper,
+  ProjectsCard,
+  ProjectsIcon,
+  ProjectsP,
+  ProjectsContainer,
+} from "./InfoElements";
+function InfoSection({ imgOne, altOne, imgTwo, altTwo, imgThree, altThree }) {
+  return (
+    <>
+      <ProjectsContainer id="education">
+        <ProjectsH1>Education</ProjectsH1>
+        <ProjectsWrapper>
+          <ProjectsCard>
+            <ProjectsIcon src={imgOne} alt={altOne} />
+            <ProjectsP>2016-2020 SCE-Shamoon college of engineering</ProjectsP>
+          </ProjectsCard>
+          <ProjectsCard>
+            <ProjectsIcon src={imgTwo} alt={altTwo} />
+            <ProjectsP>2020 React & Redux Course (40Hours) by SQLink</ProjectsP>
+          </ProjectsCard>
+          <ProjectsCard>
+            <ProjectsIcon src={imgThree} alt={altThree} />
+            <ProjectsP>2020 Udemy Course -The MERN Fullstack Guide.</ProjectsP>
+          </ProjectsCard>
+        </ProjectsWrapper>
+      </ProjectsContainer>
+    </>
+  );
+}
 export default InfoSection;

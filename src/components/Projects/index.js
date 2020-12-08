@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "../ButtonElements";
+
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -8,15 +10,34 @@ import {
   ProjectsH2,
   ProjectsP,
   ProjectsH2Desc,
+  SkillsWrap,
+  BtnWrap,
 } from "./ProjectsElements";
-function Projects({ imgOne, altOne, imgTwo, altTwo, imgThree, altThree }) {
+function Projects({
+  imgOne,
+  altOne,
+  imgTwo,
+  altTwo,
+  imgThree,
+  altThree,
+  buttonLabelOne,
+  buttonLabelTwo,
+  buttonLabelThree,
+  buttonLabelFour,
+  buttonLabelFive,
+  buttonLabelSix,
+  buttonLabelSeven,
+  buttonLabelEight,
+  buttonLabelNine,
+}) {
   return (
     <>
       <ProjectsContainer id="projects">
         <ProjectsH1>My Projects</ProjectsH1>
         <ProjectsH2Desc>
-          All these projects achieved in my free time.Check my code in github
-          refer in the Contact section.Thank you for your support!
+          All these projects achieved in my free time. <br></br>Check my code in
+          github refer in the Contact section.<br></br>Thank you for your
+          support!
         </ProjectsH2Desc>
         <ProjectsWrapper>
           <ProjectsCard>
@@ -27,7 +48,6 @@ function Projects({ imgOne, altOne, imgTwo, altTwo, imgThree, altThree }) {
               React Form for adding another bot to the list of bots.
             </ProjectsP>
           </ProjectsCard>
-
           <ProjectsCard>
             <ProjectsIcon src={imgTwo} alt={altTwo} />
             <ProjectsH2>Create Bot And Filter</ProjectsH2>
@@ -36,13 +56,29 @@ function Projects({ imgOne, altOne, imgTwo, altTwo, imgThree, altThree }) {
               Global state management.
             </ProjectsP>
           </ProjectsCard>
-
           <ProjectsCard>
             <ProjectsIcon src={imgThree} alt={altThree} />
             <ProjectsH2>Online Store</ProjectsH2>
-            <ProjectsP>Will upload soon</ProjectsP>
+            <ProjectsP>
+              Client - React-JS includes React Hooks, React Router, and Redux.
+              <br></br>Server - Node-JS with Express, MongoDB.
+            </ProjectsP>
           </ProjectsCard>
         </ProjectsWrapper>
+        <br></br>
+        <SkillsWrap>
+          <BtnWrap>
+            <Button>{buttonLabelOne}</Button>
+            <Button>{buttonLabelTwo}</Button>
+            <Button>{buttonLabelThree}</Button>
+            <Button>{buttonLabelFour}</Button>
+            <Button>{buttonLabelFive}</Button>
+            <Button>{buttonLabelSix}</Button>
+            <Button>{buttonLabelSeven}</Button>
+            <Button>{buttonLabelEight}</Button>
+            <Button>{buttonLabelNine}</Button>
+          </BtnWrap>
+        </SkillsWrap>
       </ProjectsContainer>
     </>
   );

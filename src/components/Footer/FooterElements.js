@@ -95,7 +95,7 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: -64px;
   margin-right: 24px;
-  margin-left: -24px;
+  margin-left: -64px;
 `;
 
 export const SocialIcons = styled.div`

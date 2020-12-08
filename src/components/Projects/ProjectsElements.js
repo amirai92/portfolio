@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 860px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
+  padding-bottom: 244px;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -55,6 +56,8 @@ export const ProjectsIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
+  margin-left: 44px;
+  margin-top: 10px;
 `;
 
 export const ProjectsH1 = styled.h1`
@@ -71,7 +74,8 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
   font-size: 2.5rem;
   display: flex;
-  margin-bottom: 64px;
+  margin-bottom: 44px;
+  padding-left: 24px;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
@@ -80,10 +84,24 @@ export const ProjectsH2 = styled.h2`
 export const ProjectsH2Desc = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 64px;
-  color: #01bf71;
+  color: #fff;
 `;
 export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
   color: #01bf71;
+`;
+
+export const BtnWrap = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: -1rem;
+  margin-bottom: -1rem;
+`;
+
+export const SkillsWrap = styled.p`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 144px;
 `;

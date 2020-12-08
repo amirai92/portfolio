@@ -5,4 +5,13 @@ export const ProjectObjOne = {
   altTwo: "bot_browse_form",
   imgThree: require("../../images/online_store.svg").default,
   altThree: "online_store",
+  buttonLabelOne: "React-JS",
+  buttonLabelTwo: "Redux",
+  buttonLabelThree: "Node-JS",
+  buttonLabelFour: "MONGO-DB",
+  buttonLabelFive: "JavaScript",
+  buttonLabelSix: "HTML",
+  buttonLabelSeven: "CSS",
+  buttonLabelEight: "Python",
+  buttonLabelNine: "Java",
 };

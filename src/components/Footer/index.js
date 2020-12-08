@@ -52,7 +52,8 @@ function Footer() {
         <SocialMedia>
           <SocialMediaWrap>
             <WebsiteRights>
-              Amir Aizin © {new Date().getFullYear()} All rights reserved
+              © Made by Amir Aizin All rights reserved{" "}
+              {new Date().getFullYear()}
             </WebsiteRights>
           </SocialMediaWrap>
         </SocialMedia>
