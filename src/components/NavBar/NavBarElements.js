@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
+import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "fff" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -17,7 +17,6 @@ export const Nav = styled.nav`
     transition: 0.8s all ease;
   }
 `;
-
 export const NavBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -25,11 +24,9 @@ export const NavBarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1110px;
-  margin-right: 664px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkRouter)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -60,15 +57,18 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
-  @media screen (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
 
 export const NavItem = styled.li`
   height: 80px;
-  padding: 10px;
+  &:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #01bf71;
+    transition: all 0.2s ease-in-out;
+  }
 `;
 
 export const NavLinks = styled(LinkScroll)`
@@ -80,6 +80,7 @@ export const NavLinks = styled(LinkScroll)`
   height: 100%;
   cursor: pointer;
   &.active {
+    // For the scroll trick
     border-bottom: 3px solid #01bf71;
   }
 `;
@@ -92,12 +93,12 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
   background: #01bf71;
+  color: #010606;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
   font-size: 16px;
   outline: none;
   border: none;

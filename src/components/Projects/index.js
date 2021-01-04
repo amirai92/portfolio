@@ -47,25 +47,32 @@ function Projects({
               In this project I have built application using React Redux and
               React Form for adding another bot to the list of bots.
             </ProjectsP>
+            <a href="https://botbrowseit.netlify.app" class="button">
+              Click me to refer to the project
+            </a>
           </ProjectsCard>
           <ProjectsCard>
             <ProjectsIcon src={imgTwo} alt={altTwo} />
-            <ProjectsH2>Create Bot And Filter</ProjectsH2>
+            <ProjectsH2>Your Places</ProjectsH2>
             <ProjectsP>
-              In this project I have built application Using Context API as
-              Global state management.
+              Client - React-JS includes React Hooks
+              <br></br>Server - Node-JS with Express, MongoDB.
             </ProjectsP>
+            <a href="https://mern-amir.herokuapp.com/" class="button">
+              Click me to refer to the project
+            </a>
           </ProjectsCard>
           <ProjectsCard>
             <ProjectsIcon src={imgThree} alt={altThree} />
-            <ProjectsH2>Online Store</ProjectsH2>
+            <ProjectsH2>COVID-19</ProjectsH2>
             <ProjectsP>
-              Client - React-JS includes React Hooks, React Router, and Redux.
-              <br></br>Server - Node-JS with Express, MongoDB.
+              UNDER CONSTRUCTION
+              <br></br>A Chart that will display Infected, Recoverd And Deaths
+              from COVID-19 all over the world
             </ProjectsP>
           </ProjectsCard>
         </ProjectsWrapper>
-        <br></br>
+
         <SkillsWrap>
           <BtnWrap>
             <Button>{buttonLabelOne}</Button>

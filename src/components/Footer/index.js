@@ -5,7 +5,6 @@ import {
   FooterContainer,
   FooterWrap,
   SocialMedia,
-  SocialMediaWrap,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
@@ -50,12 +49,9 @@ function Footer() {
           </SocialIconLink>
         </SocialIcons>
         <SocialMedia>
-          <SocialMediaWrap>
-            <WebsiteRights>
-              © Made by Amir Aizin All rights reserved{" "}
-              {new Date().getFullYear()}
-            </WebsiteRights>
-          </SocialMediaWrap>
+          <WebsiteRights>
+            © Made by Amir Aizin All rights reserved {new Date().getFullYear()}
+          </WebsiteRights>
         </SocialMedia>
       </FooterWrap>
     </FooterContainer>

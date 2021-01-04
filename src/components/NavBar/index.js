@@ -10,7 +10,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-} from "./NavBarElements";
+} from "./NavBarElements.js";
 
 const NavBar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -35,7 +35,7 @@ const NavBar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavBarContainer>
             <FaArrowUp
-              fontSize={"34px"}
+              fontSize={"24px"}
               to="/"
               onClick={toggleHome}
             ></FaArrowUp>

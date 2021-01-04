@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  SidebarContainer,
+  SideBarContainer,
   Icon,
   CloseIcon,
   SidebarWrapper,
@@ -10,7 +10,7 @@ import {
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+    <SideBarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
-    </SidebarContainer>
+    </SideBarContainer>
   );
 };
 

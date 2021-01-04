@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const EducationContainer = styled.div`
-  height: 860px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
-  padding-bottom: 244px;
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
@@ -86,6 +85,9 @@ export const EducationH2Desc = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 64px;
   color: #fff;
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
 `;
 export const EducationP = styled.p`
   font-size: 1rem;
